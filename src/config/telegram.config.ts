@@ -1,0 +1,4 @@
+export const TELEGRAM_CONFIG = {
+  BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || 'YOUR_BOT_TOKEN',
+  CHAT_ID: process.env.TELEGRAM_CHAT_ID || 'YOUR_CHAT_ID',
+};
